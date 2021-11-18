@@ -1,0 +1,27 @@
+{
+    "display_list": [
+        "visit_date_min",
+        "observers",
+        "nb_observations",
+        "id_nomenclature_type_site"
+    ],
+    "specific": {
+        "id_nomenclature_chiro_obs": {
+            "type_widget": "nomenclature",
+            "attribut_label": "Type d'observation",
+            "code_nomenclature_type": "TYPE_OBS_CHIRO",
+            "type_util": "nomenclature",
+            "required": true
+        },
+        "data_source": {
+            "type_widget": "text",
+            "attribut_label": "Source de la donnée",
+            "hidden": true
+        },
+        "id_obs_old": {
+            "type_widget": "number",
+            "hidden": true,
+            "attribut_label": "Ancien ID de l'observation"
+        }
+    }
+}

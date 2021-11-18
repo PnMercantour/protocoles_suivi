@@ -1,0 +1,180 @@
+{
+    "types": [{
+        "mnemonique": "TYPE_OBS_CHIRO",
+        "label_default": "Type d'observation",
+        "definition_default": "Type d'observation pour le protocole de suivi des chiroptères"
+    }, {
+        "mnemonique": "CHIRO_STATUS",
+        "label_default": "Status des individus",
+        "definition_default": "Status des individus pour le protocole de suivi des chiroptères"
+    }],
+    "nomenclatures": [{
+        "type": "TYPE_SITE",
+        "cd_nomenclature": "60",
+        "mnemonique": "BLOCKHAUS",
+        "label_default": "Blockhaus",
+        "definition_default": "Blockhaus"
+    }, {
+        "type": "TYPE_SITE",
+        "cd_nomenclature": "10",
+        "mnemonique": "PONT",
+        "label_default": "Pont",
+        "definition_default": "Pont"
+    }, {
+        "type": "TYPE_SITE",
+        "cd_nomenclature": "11",
+        "mnemonique": "TUNNEL",
+        "label_default": "Tunnel",
+        "definition_default": "Tunnel"
+    }, {
+        "type": "TYPE_SITE",
+        "cd_nomenclature": "20",
+        "mnemonique": "AUTRE_BATI",
+        "label_default": "Autre bati",
+        "definition_default": "Autre bati"
+    }, {
+        "type": "TYPE_SITE",
+        "cd_nomenclature": "40",
+        "mnemonique": "BATIMENTS_RELIGIEUX",
+        "label_default": "Batiments religieux",
+        "definition_default": "Batiments religieux"
+    }, {
+        "type": "TYPE_SITE",
+        "cd_nomenclature": "30",
+        "mnemonique": "BATIMENTS_HABITATIONS",
+        "label_default": "Batiments habitations",
+        "definition_default": "Batiments habitations"
+    }, {
+        "type": "TYPE_SITE",
+        "cd_nomenclature": "50",
+        "mnemonique": "BATIMENTS_RURAUX",
+        "label_default": "Batiments ruraux",
+        "definition_default": "Batiments ruraux"
+    }, {
+        "type": "TYPE_SITE",
+        "cd_nomenclature": "70",
+        "mnemonique": "CARRIERE",
+        "label_default": "Carriere",
+        "definition_default": "Carriere"
+    }, {
+        "type": "TYPE_SITE",
+        "cd_nomenclature": "9",
+        "mnemonique": "CAVITE_NATURELLE",
+        "label_default": "Cavite naturelle",
+        "definition_default": "Cavite naturelle"
+    }, {
+        "type": "TYPE_SITE",
+        "cd_nomenclature": "8",
+        "mnemonique": "CAVITE_ARTIFICIELLE",
+        "label_default": "Cavite artificielle",
+        "definition_default": "Cavite artificielle"
+    }, {
+        "type": "TYPE_SITE",
+        "cd_nomenclature": "999",
+        "mnemonique": "NON_DEFINI",
+        "label_default": "Non-défini",
+        "definition_default": "Non-défini"
+    }, {
+        "type": "TYPE_SITE",
+        "cd_nomenclature": "99",
+        "mnemonique": "AUTRE_SITE_NON_GITE",
+        "label_default": "Autre site (non-gîte)",
+        "definition_default": "Autre site (non-gîte)"
+    }, {
+        "type": "TYPE_OBS_CHIRO",
+        "cd_nomenclature": "2",
+        "mnemonique": "CADAVRE_ANIMAL_BLESSE",
+        "label_default": "Cadavre / Animal blessé",
+        "definition_default": "Cadavre / Animal blessé"
+    }, {
+        "type": "TYPE_OBS_CHIRO",
+        "cd_nomenclature": "3",
+        "mnemonique": "CAPTEUR",
+        "label_default": "Capteur",
+        "definition_default": "Capteur"
+    }, {
+        "type": "TYPE_OBS_CHIRO",
+        "cd_nomenclature": "4",
+        "mnemonique": "FILET",
+        "label_default": "Filet",
+        "definition_default": "Filet"
+    }, {
+        "type": "TYPE_OBS_CHIRO",
+        "cd_nomenclature": "5",
+        "mnemonique": "GITE",
+        "label_default": "Gite",
+        "definition_default": "Gite"
+    }, {
+        "type": "TYPE_OBS_CHIRO",
+        "cd_nomenclature": "6",
+        "mnemonique": "SPONTANE_OCCASIONNELLE",
+        "label_default": "Spontané / occasionnelle",
+        "definition_default": "Spontané / occasionnelle"
+    }, {
+        "type": "CHIRO_STATUS",
+        "cd_nomenclature": "1",
+        "mnemonique": "ACTIFS",
+        "label_default": "Actifs",
+        "definition_default": "Actifs"
+    }, {
+        "type": "CHIRO_STATUS",
+        "cd_nomenclature": "2",
+        "mnemonique": "ALLAITANTE",
+        "label_default": "Allaitante",
+        "definition_default": "Allaitante"
+    }, {
+        "type": "CHIRO_STATUS",
+        "cd_nomenclature": "3",
+        "mnemonique": "ESTIVANT",
+        "label_default": "Estivant",
+        "definition_default": "Estivant"
+    }, {
+        "type": "CHIRO_STATUS",
+        "cd_nomenclature": "4",
+        "mnemonique": "G1",
+        "label_default": "G1",
+        "definition_default": "G1"
+    }, {
+        "type": "CHIRO_STATUS",
+        "cd_nomenclature": "5",
+        "mnemonique": "G1E0",
+        "label_default": "G1E0",
+        "definition_default": "G1E0"
+    }, {
+        "type": "CHIRO_STATUS",
+        "cd_nomenclature": "6",
+        "mnemonique": "HIVERNANT",
+        "label_default": "Hivernant",
+        "definition_default": "Hivernant"
+    }, {
+        "type": "CHIRO_STATUS",
+        "cd_nomenclature": "7",
+        "mnemonique": "LETHARGIE",
+        "label_default": "Lethargie",
+        "definition_default": "Lethargie"
+    }, {
+        "type": "CHIRO_STATUS",
+        "cd_nomenclature": "8",
+        "mnemonique": "MULTIPARE",
+        "label_default": "multipare",
+        "definition_default": "multipare"
+    }, {
+        "type": "CHIRO_STATUS",
+        "cd_nomenclature": "9",
+        "mnemonique": "PRIMIPARE",
+        "label_default": "primipare?",
+        "definition_default": "primipare?"
+    }, {
+        "type": "CHIRO_STATUS",
+        "cd_nomenclature": "10",
+        "mnemonique": "REPRO",
+        "label_default": "Repro",
+        "definition_default": "Repro"
+    }, {
+        "type": "CHIRO_STATUS",
+        "cd_nomenclature": "11",
+        "mnemonique": "REPRODUCTEUR",
+        "label_default": "Reproducteur",
+        "definition_default": "Reproducteur"
+    }]
+}

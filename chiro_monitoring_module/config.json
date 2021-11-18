@@ -1,0 +1,20 @@
+{
+    "tree": {
+        "module": {
+            "site": {
+                "visit": {
+                    "observation": null
+                }
+            }
+        }
+    },
+    "data": {
+        "nomenclature": [
+            "CHIRO_STATUS",
+            "TYPE_SITE",
+            "TYPE_OBS_CHIRO"
+        ],
+        "user": ["__CODE_LIST_INVENTOR", "__CODE_LIST_OBSERVER"]
+    }
+
+}

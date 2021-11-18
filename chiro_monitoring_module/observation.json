@@ -1,0 +1,40 @@
+{
+    "display_properties": ["cd_nom", "comments",
+        "id_total_count",
+        "id_young_count",
+        "id_male_count",
+        "id_female_count",
+        "id_nomenclature_chiro_status"
+    ],
+    "specific": {
+
+        "id_total_count": {
+            "type_widget": "number",
+            "attribut_label": "Effectif total",
+            "required": true,
+            "min": 0
+        },
+        "id_young_count": {
+            "type_widget": "number",
+            "attribut_label": "Nombre de jeunes",
+            "min": 0
+        },
+        "id_male_count": {
+            "type_widget": "number",
+            "attribut_label": "Nombre de males",
+            "min": 0
+        },
+        "id_female_count": {
+            "type_widget": "number",
+            "attribut_label": "Nombre de femelles",
+            "min": 0
+        },
+        "id_nomenclature_chiro_status": {
+            "type_widget": "nomenclature",
+            "attribut_label": "Status des individus",
+            "code_nomenclature_type": "CHIRO_STATUS",
+            "type_util": "nomenclature",
+            "required": true
+        }
+    }
+}

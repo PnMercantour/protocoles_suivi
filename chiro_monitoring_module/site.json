@@ -1,0 +1,51 @@
+{
+    "geometry_type": "Point",
+    "display_properties": [
+        "base_site_name",
+        "id_nomenclature_type_site",
+        "id_inventor",
+        "first_use_date",
+        "last_visit",
+        "nb_visits",
+        "commentaire"
+    ],
+    "display_list": [
+        "base_site_name",
+        "id_nomenclature_type_site",
+        "last_visit",
+        "nb_visits"
+    ],
+    "specific": {
+        "id_site_old": {
+            "type_widget": "int",
+            "hidden": true,
+            "attribut_label": "Ancien ID du site"
+        },
+        "id_nomenclature_type_site": {
+            "type_widget": "nomenclature",
+            "attribut_label": "Type de site",
+            "code_nomenclature_type": "TYPE_SITE",
+            "type_util": "nomenclature",
+            "required": true
+        },
+        "commentaire": {
+            "type_widget": "text",
+            "attribut_label": "Commentaire"
+        },
+        "base_site_code": {
+            "type_widget": "text",
+            "attribut_label": "Code",
+            "required": false,
+            "hidden": true
+        },
+        "id_inventor": {
+            "type_widget": "observers",
+            "attribut_label": "Descripteur",
+            "code_list": "__CODE_LIST_INVENTOR",
+            "max_length": 1,
+            "type_util": "user",
+            "required": false,
+            "hidden": true
+        }
+    }
+}
