@@ -1,0 +1,43 @@
+{
+    "geometry_type": "Point",
+    "display_properties": [
+        "base_site_name",
+        "base_site_description",
+        "id_nomenclature_type_site",
+        "id_inventor",
+        "first_use_date",
+        "last_visit",
+        "nb_visits"
+    ],
+    "display_list": [
+        "base_site_name",
+        "id_nomenclature_type_site",
+        "last_visit",
+        "nb_visits"
+    ],
+    "specific": {
+        "id_nomenclature_type_site": {
+            "filters": {
+                "cd_nomenclature": [
+                    "CHI",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ]
+            },
+            "default": {
+                "cd_nomenclature": "CHI"
+            }
+        },
+        "base_site_code": {
+            "type_widget": "text",
+            "attribut_label": "Code",
+            "required": false,
+            "hidden": true
+        }
+    }
+}
