@@ -43,7 +43,11 @@
             "type_widget": "nomenclature",
             "attribut_label": "Comportement",
             "code_nomenclature_type": "OCC_COMPORTEMENT",
-            "type_util": "nomenclature"
+            "type_util": "nomenclature",
+            "required": true,
+            "default": {
+                "cd_nomenclature": "1"
+            }
         },
         "id_nomenclature_chiro_status": {
             "type_widget": "nomenclature",
