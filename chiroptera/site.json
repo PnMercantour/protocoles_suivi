@@ -4,6 +4,10 @@
         "base_site_name",
         "base_site_description",
         "id_nomenclature_type_site",
+        "frequentation",
+        "acc",
+        "acc2",
+        "autpreal",
         "id_inventor",
         "first_use_date",
         "last_visit",
@@ -32,6 +36,34 @@
             "default": {
                 "cd_nomenclature": "CHI"
             }
+        },
+        "frequentation": {
+            "type_widget": "nomenclature",
+            "attribut_label": "Fréquentation du site",
+            "code_nomenclature_type": "CHI_FREQUENTATION",
+            "type_util": "nomenclature",
+            "required": false
+        },
+        "acc": {
+            "type_widget": "nomenclature",
+            "attribut_label": "Accessibilité du site",
+            "code_nomenclature_type": "ACC",
+            "type_util": "nomenclature",
+            "required": false
+        },
+        "acc2": {
+            "type_widget": "nomenclature",
+            "attribut_label": "Raison de niveau d'accessibilité",
+            "code_nomenclature_type": "ACC2",
+            "type_util": "nomenclature",
+            "required": false
+        },
+        "autpreal": {
+            "type_widget": "nomenclature",
+            "attribut_label": "Autorisation préalable pour accès",
+            "code_nomenclature_type": "AUTPREAL",
+            "type_util": "nomenclature",
+            "required": false
         },
         "base_site_code": {
             "type_widget": "text",
