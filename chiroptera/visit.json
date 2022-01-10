@@ -1,8 +1,29 @@
 {
+    "display_properties": [
+        "visit_date_min",
+        "observers",
+        "site_event",
+        "comments",
+        "nb_observations"
+    ],
     "display_list": [
         "visit_date_min",
         "observers",
-        "comments",
+        "site_event",
         "nb_observations"
-    ]
+    ],
+    "specific": {
+        "site_event": {
+            "type_widget": "select",
+            "attribut_label": "Evènements",
+            "values": [
+                "Fermeture avec chiros",
+                "Mise en protection",
+                "Création d'aménagement favorable",
+                "Dégradation",
+                "Dérangement direct",
+                "Destruction"
+            ]
+        }
+    }
 }
