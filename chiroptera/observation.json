@@ -10,6 +10,11 @@
         "comportement",
         "id_nomenclature_chiro_status"
     ],
+    "display_list": [
+        "cd_nom",
+        "total_count",
+        "etat_bio"
+    ],
     "specific": {
         "total_count": {
             "type_widget": "number",
