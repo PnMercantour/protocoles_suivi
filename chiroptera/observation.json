@@ -37,7 +37,7 @@
             "attribut_label": "Nombre de femelles",
             "min": 0
         },
-        "eta_bio": {
+        "etat_bio": {
             "type_widget": "nomenclature",
             "attribut_label": "Etat biologique",
             "code_nomenclature_type": "ETA_BIO",
