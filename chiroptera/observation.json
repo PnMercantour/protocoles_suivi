@@ -2,6 +2,8 @@
     "display_properties": [
         "cd_nom",
         "comments",
+        "statut_obs",
+        "meth_obs",
         "total_count",
         "juvenile_count",
         "male_count",
@@ -36,6 +38,28 @@
             "type_widget": "number",
             "attribut_label": "Nombre de femelles",
             "min": 0
+        },
+        "statut_obs": {
+            "type_widget": "nomenclature",
+            "attribut_label": "Statut d'observation",
+            "code_nomenclature_type": "STATUT_OBS",
+            "type_util": "nomenclature",
+            "required": true,
+            "value": {
+                "code_nomenclature_type": "STATUT_OBS",
+                "cd_nomenclature": "Pr"
+            }
+        },
+        "meth_obs": {
+            "type_widget": "nomenclature",
+            "attribut_label": "Méthode d'observation",
+            "code_nomenclature_type": "METH_OBS",
+            "type_util": "nomenclature",
+            "required": true,
+            "value": {
+                "code_nomenclature_type": "METH_OBS",
+                "cd_nomenclature": "25"
+            }
         },
         "etat_bio": {
             "type_widget": "nomenclature",
