@@ -45,7 +45,7 @@
             "code_nomenclature_type": "OCC_COMPORTEMENT",
             "type_util": "nomenclature",
             "required": true,
-            "default": {
+            "value": {
                 "cd_nomenclature": "1"
             }
         },
