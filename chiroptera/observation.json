@@ -7,6 +7,7 @@
         "male_count",
         "female_count",
         "etat_bio",
+        "comportement",
         "id_nomenclature_chiro_status"
     ],
     "specific": {
@@ -37,6 +38,12 @@
             "code_nomenclature_type": "ETA_BIO",
             "type_util": "nomenclature",
             "required": true
+        },
+        "comportement": {
+            "type_widget": "nomenclature",
+            "attribut_label": "Comportement",
+            "code_nomenclature_type": "OCC_COMPORTEMENT",
+            "type_util": "nomenclature"
         },
         "id_nomenclature_chiro_status": {
             "type_widget": "nomenclature",
