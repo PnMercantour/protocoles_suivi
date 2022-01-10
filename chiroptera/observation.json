@@ -37,7 +37,11 @@
             "attribut_label": "Etat biologique",
             "code_nomenclature_type": "ETA_BIO",
             "type_util": "nomenclature",
-            "required": true
+            "required": true,
+            "value": {
+                "code_nomenclature_type": "ETAT_BIO",
+                "cd_nomenclature": "1"
+            }
         },
         "comportement": {
             "type_widget": "nomenclature",
