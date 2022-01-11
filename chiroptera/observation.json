@@ -78,17 +78,35 @@
             "code_nomenclature_type": "OCC_COMPORTEMENT",
             "type_util": "nomenclature",
             "required": true,
-            "value": {
-                "code_nomenclature_type": "OCC_COMPORTEMENT",
-                "cd_nomenclature": "1"
+            "filters": {
+                "cd_nomenclature": [
+                    "0",
+                    "1",
+                    "3",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17",
+                    "19"
+                ],
+                "value": {
+                    "code_nomenclature_type": "OCC_COMPORTEMENT",
+                    "cd_nomenclature": "1"
+                }
+            },
+            "id_nomenclature_chiro_status": {
+                "type_widget": "nomenclature",
+                "attribut_label": "Status des individus",
+                "code_nomenclature_type": "CHIRO_STATUS",
+                "type_util": "nomenclature",
+                "required": true
             }
-        },
-        "id_nomenclature_chiro_status": {
-            "type_widget": "nomenclature",
-            "attribut_label": "Status des individus",
-            "code_nomenclature_type": "CHIRO_STATUS",
-            "type_util": "nomenclature",
-            "required": true
         }
     }
-}
