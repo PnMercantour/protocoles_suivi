@@ -2,25 +2,28 @@
     "display_properties": [
         "visit_date_min",
         "observers",
-        "site_event",
+        "site_update",
         "comments",
         "nb_observations"
     ],
     "display_list": [
         "visit_date_min",
         "observers",
-        "site_event",
+        "site_update",
         "nb_observations"
     ],
     "specific": {
-        "site_event": {
+        "site_update": {
             "type_widget": "select",
-            "attribut_label": "Evènements",
+            "attribut_label": "Modification du site",
             "values": [
-                "Fermeture avec chiros",
+                "Aménagement chiroptière",
+                "Aménagement nichoir",
                 "Mise en protection",
-                "Création d'aménagement favorable",
-                "Dégradation",
+                "Autre aménagement favorable",
+                "Modification du milieu",
+                "Dégradation (Réfection du site)",
+                "Traitement chimique proche",
                 "Dérangement direct",
                 "Destruction"
             ]

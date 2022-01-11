@@ -2,8 +2,8 @@
     "geometry_type": "Point",
     "display_properties": [
         "base_site_name",
-        "base_site_description",
         "id_nomenclature_type_site",
+        "base_site_description",
         "frequentation",
         "acc",
         "acc2",
