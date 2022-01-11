@@ -10,6 +10,7 @@
         "female_count",
         "etat_bio",
         "comportement",
+        "comportement_datalist",
         "id_nomenclature_chiro_status"
     ],
     "display_list": [
@@ -78,6 +79,21 @@
             "code_nomenclature_type": "OCC_COMPORTEMENT",
             "type_util": "nomenclature",
             "required": true,
+            "value": {
+                "code_nomenclature_type": "OCC_COMPORTEMENT",
+                "cd_nomenclature": "1"
+            }
+        },
+        "comportement_datalist": {
+            "type_widget": "datalist",
+            "attribut_label": "Comportement datalist",
+            "api": "nomenclatures/nomenclature/OCC_COMPORTEMENT",
+            "application": "GeoNature",
+            "keyValue": "id_nomenclature",
+            "keyLabel": "label_fr",
+            "data_path": "values",
+            "type_util": "nomenclature",
+            "required": true,
             "filters": {
                 "cd_nomenclature": [
                     "0",
@@ -95,18 +111,19 @@
                     "16",
                     "17",
                     "19"
-                ],
-                "value": {
-                    "code_nomenclature_type": "OCC_COMPORTEMENT",
-                    "cd_nomenclature": "1"
-                }
+                ]
             },
-            "id_nomenclature_chiro_status": {
-                "type_widget": "nomenclature",
-                "attribut_label": "Status des individus",
-                "code_nomenclature_type": "CHIRO_STATUS",
-                "type_util": "nomenclature",
-                "required": true
+            "value": {
+                "code_nomenclature_type": "OCC_COMPORTEMENT",
+                "cd_nomenclature": "1"
             }
+        },
+        "id_nomenclature_chiro_status": {
+            "type_widget": "nomenclature",
+            "attribut_label": "Status des individus",
+            "code_nomenclature_type": "CHIRO_STATUS",
+            "type_util": "nomenclature",
+            "required": true
         }
     }
+}
