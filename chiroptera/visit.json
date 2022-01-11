@@ -4,7 +4,8 @@
         "observers",
         "site_update",
         "comments",
-        "nb_observations"
+        "nb_observations",
+        "id_dataset"
     ],
     "display_list": [
         "visit_date_min",
